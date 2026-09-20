@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Falloff: see where your business shows up on Google Maps</title>
+<meta name="description" content="Google shows different businesses depending on where the searcher is standing. Falloff checks a Google Maps search from many locations and shows how far your business gets seen, whether it makes the top three, and who shows up instead.">
+<script>try { const t = localStorage.getItem('falloff-theme'); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap">
+  <nav class="top" aria-label="Main">
+    <a class="brand" href="#top" aria-label="Falloff, home"><span class="logo"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="37.1 38.1 948.7 948.7"><path fill="currentColor" fill-rule="evenodd" d="M154,778L148,774L126,741L98,684L78,625L66,568L64,533L64,490L68,441L82,380L102,326L132,272L170,220L210,178L250,146L300,116L350,92L404,76L439,68L470,66L480,163L432,170L386,184L341,206L304,230L278,250L236,296L208,336L188,376L174,417L164,468L162,488L164,556L174,606L186,639L202,676L228,719L154,778ZM919,698L830,657L848,610L856,570L860,537L860,486L856,453L848,413L834,376L814,334L800,312L772,278L737,244L702,218L654,192L629,182L596,172L544,162L555,66L596,70L644,82L699,104L746,128L788,158L836,200L868,237L898,283L924,335L942,386L954,440L960,489L958,550L952,594L940,646L919,698ZM470,796L437,788L409,780L359,754L316,722L278,679L264,656L248,627L230,571L224,521L228,469L234,439L244,408L268,360L298,320L320,298L345,278L370,262L398,248L451,230L498,224L526,224L555,228L592,236L632,250L668,270L690,288L617,360L596,348L573,338L548,330L525,328L498,328L471,332L445,340L420,352L392,372L360,406L342,440L330,482L328,524L332,551L342,585L358,614L372,631L406,662L440,682L470,692L470,796ZM559,794L552,794L552,692L596,676L617,662L640,644L658,624L668,608L678,592L688,564L696,525L696,499L692,476L682,440L662,405L735,332L756,360L774,396L786,428L796,468L798,499L798,538L790,580L780,612L762,651L744,679L722,706L693,734L664,754L633,772L594,786L559,794ZM523,604L489,602L477,598L456,586L442,573L432,558L424,541L420,524L420,499L422,485L430,468L440,453L453,440L468,430L485,422L499,420L525,420L535,422L555,430L570,440L584,453L594,470L604,500L602,534L598,546L586,567L573,580L558,592L546,598L523,604ZM534,960L491,960L449,956L411,948L366,936L331,922L295,904L255,878L224,855L287,780L328,810L374,834L435,854L489,862L545,860L579,856L607,848L642,836L674,822L706,802L736,780L798,854L778,872L737,898L699,918L668,932L608,950L568,956L534,960Z"/></svg></span>Falloff</a>
+    <ul>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#uses">Uses</a></li>
+      <li><a href="case-study.html">Case study</a></li>
+      <li><a href="method.html">Method</a></li>
+      <li><a href="https://github.com/CandyFlex/falloff">GitHub</a></li>
+    </ul>
+    <button class="theme" type="button" aria-label="Switch between light and dark">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero wrap" id="top" aria-labelledby="h-hero">
+    <div class="hero-copy">
+      <h1 id="h-hero">See where your business shows up on Google Maps, and <em>where it stops.</em></h1>
+      <p class="sub">Google shows different businesses depending on where the searcher is standing. Falloff checks a search from many locations and maps how far yours gets seen.</p>
+      <div class="cta">
+        <a class="btn" href="#how">See how it works</a>
+        <button class="btn ghost copy" type="button" data-copy="npm i falloff"><code>npm i falloff</code><span class="copied" aria-live="polite"></span></button>
+      </div>
+    </div>
+    <figure class="hero-fig">
+      <div id="hero-iris" class="iris-box"></div>
+      <figcaption>
+        <ul class="key" aria-label="How to read the map">
+          <li><i class="k home"></i>The center is the business.</li>
+          <li><i class="k ring"></i>Each ring out is farther away.</li>
+          <li><i class="k found"></i>Filled means Google showed it to a searcher there.</li>
+        </ul>
+        <p class="cap" data-f="m-cap"></p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="how" id="how" aria-labelledby="h-how" data-stage="1">
+    <div class="how-pin wrap">
+      <div id="how-iris" class="iris-box"></div>
+      <div class="how-text">
+        <h2 id="h-how">How it works</h2>
+        <div class="how-steps">
+          <article data-stage="1">
+            <h3>Pick a business and a search.</h3>
+            <p>Choose any business and the words a customer would type into Google, like "dentist". Falloff lays out checkpoints in rings around it, from a few minutes away to about an hour's drive.</p>
+          </article>
+          <article data-stage="2">
+            <h3>It runs that Google Maps search from every checkpoint.</h3>
+            <p>At each spot it records the list of businesses Google returns, in order, as a searcher at that spot would get them. If a spot can't be checked, it is marked as unread. It is never counted as a miss.</p>
+          </article>
+          <article data-stage="3">
+            <h3>You see where Google shows the business, and where it stops.</h3>
+            <p>Filled areas are where the business appeared. The dashed line is its reach: the farthest distance where it still shows up at half the checkpoints or more. Beyond that line, Google is showing searchers someone else.</p>
+          </article>
+        </div>
+        <div class="how-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+    </div>
+    <div class="how-marks" aria-hidden="true"><span data-stage="1"></span><span data-stage="2"></span><span data-stage="3"></span></div>
+  </section>
+
+  <section class="uses wrap" id="uses" aria-labelledby="h-uses">
+    <h2 id="h-uses">What people do with the answer.</h2>
+    <dl class="rows">
+      <div><dt>Put effort where you're invisible.</dt><dd>Once you can see the line where Google stops showing you, ads, listing updates and review work can go to the areas beyond it, and not to the blocks where you already win.</dd></div>
+      <div><dt>Show a before and an after.</dt><dd>Scan, do the work, scan again. Falloff compares two scans checkpoint by checkpoint, so a client sees what changed and where.</dd></div>
+      <div><dt>Watch the competition.</dt><dd>Every scan maps the businesses Google ranks above you and how far each one reaches, so you know who you are actually up against and where.</dd></div>
+      <div><dt>Publish research safely.</dt><dd>One command withholds every business name while keeping places, dates and measurements, so findings can be shared without exposing anyone.</dd></div>
+    </dl>
+  </section>
+
+  <section class="scale" id="scale" aria-labelledby="h-scale">
+    <div class="wrap">
+      <h2 id="h-scale">Start with a quick read. Add detail when you need it.</h2>
+      <p class="lede">Eighty checkpoints is enough to see the shape of a business's reach. The same method works at 500 or 2,000 checkpoints, or more, for a street-by-street picture. There is no upper limit.</p>
+      <div class="plans" id="plans"></div>
+      <p class="cap">These three diagrams show checkpoint layouts only, drawn live by Falloff for the same area.</p>
+    </div>
+  </section>
+
+  <section class="trust wrap" id="trust" aria-labelledby="h-trust">
+    <div class="trust-head">
+      <div>
+        <h2 id="h-trust">Numbers you can check.</h2>
+        <p class="lede">Map ranking reports are easy to fudge. Falloff is built so every figure can be traced back and checked again.</p>
+      </div>
+      <a class="btn ghost" href="method.html">Read the full method</a>
+    </div>
+    <div class="trust-grid">
+      <article>
+        <div class="viz v-total"><b data-f="m-vis"></b><s data-f="m-pct"></s></div>
+        <h3>Every number shows its total.</h3>
+        <p>You see how many locations it is out of, never a bare percentage that hides how much was measured.</p>
+      </article>
+      <article>
+        <div class="viz v-states"><span><i class="k found"></i>Found</span><span><i class="k absent"></i>Not found</span><span><i class="k unreached"></i>Unread</span></div>
+        <h3>A failed check is never a miss.</h3>
+        <p>A location that could not be read is reported on its own and left out of the math, so gaps can't move a score.</p>
+      </article>
+      <article>
+        <div class="viz v-date"><small>Observed</small><b data-f="m-date"></b></div>
+        <h3>Results are dated, never "live".</h3>
+        <p>Each scan records when it was taken and the exact settings used, so two scans can be compared fairly.</p>
+      </article>
+      <article>
+        <div class="viz v-audit"><b data-f="m-audit"></b><small data-f="m-audit-n"></small></div>
+        <h3>A built-in audit rechecks the math.</h3>
+        <p>One command recomputes every figure from the raw results and flags anything that does not add up.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="teaser wrap" aria-labelledby="h-teaser">
+    <a class="teaser-card" href="case-study.html">
+      <div class="teaser-maps"><div id="t-a" class="iris-box"></div><div id="t-b" class="iris-box"></div></div>
+      <div>
+        <p class="kicker">Case study</p>
+        <h2 id="h-teaser">One search, a big city and a small town.</h2>
+        <p class="lede">Two real scans, picked at random, with every competitor mapped. See what a finished scan looks like and how to read it.</p>
+        <span class="btn ghost">Read the case study</span>
+      </div>
+    </a>
+  </section>
+
+  <section class="final wrap" aria-labelledby="h-final">
+    <h2 id="h-final">Try it on a business you know.</h2>
+    <p class="lede">Falloff is free and open source. It runs from the command line and needs Node 20 or newer.</p>
+    <div class="cta">
+      <button class="btn copy" type="button" data-copy="npm i falloff"><code>npm i falloff</code><span class="copied" aria-live="polite"></span></button>
+      <a class="btn ghost" href="https://github.com/CandyFlex/falloff">View on GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>MIT license. Made by Jarred O'Brien. No analytics on this page.</p>
+  <p>Business names are withheld. Places, dates and measurements are real. Falloff is an independent project and is not affiliated with Google.</p>
+</footer>
+
+<script src="site-data.js"></script>
+<script type="module" src="site.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+node_modules/
+*.log
+snapshots/*
+!snapshots/tampered.json
+studies/private/
+.shots/
+.scratch/
+out/

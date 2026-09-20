@@ -1,0 +1,5392 @@
+{
+  "schema": "falloff/snapshot@1",
+  "target": {
+    "name": "withheld",
+    "id": "h:5bff92ba3500c216",
+    "lat": 38.92,
+    "lng": -79.84
+  },
+  "query": "dentist",
+  "provider": {
+    "id": "google-maps-web",
+    "version": "grid-scan radial-v2 @13z"
+  },
+  "method": {
+    "sampler": "radial-v2",
+    "preset": "mid",
+    "rmin": 2.5,
+    "rmax": 60,
+    "budget": 80,
+    "rings": 8,
+    "ringRadiiKm": [
+      2.5,
+      3.9,
+      6.2,
+      9.8,
+      15.4,
+      24.2,
+      38.1,
+      60
+    ],
+    "pointsPerRing": [
+      6,
+      6,
+      6,
+      6,
+      8,
+      12,
+      17,
+      18
+    ],
+    "growth": 1.55,
+    "goldenAngle": 2.39996,
+    "minRingPoints": 6,
+    "kmPerDegLat": 110.57,
+    "kmPerDegLngEquator": 111.32,
+    "lngScale": "cos-lat",
+    "provider": "google-maps-web",
+    "providerVersion": "grid-scan radial-v2 @13z",
+    "packSize": 3,
+    "observation": {
+      "zoom": "13z",
+      "surface": "maps-feed",
+      "loggedOut": true,
+      "passes": 1,
+      "locale": "en-US",
+      "identity": "pid-first-v2",
+      "listDepth": {
+        "min": 10,
+        "max": 10
+      },
+      "observationWindow": "unknown; the source file records one timestamp for the whole scan"
+    }
+  },
+  "command": "falloff convert withheld.json",
+  "startedAt": "2026-09-20T05:00:03.991Z",
+  "finishedAt": null,
+  "readings": [
+    {
+      "ring": 0,
+      "index": 0,
+      "lat": 38.92,
+      "lng": -79.84,
+      "dKm": 0,
+      "bearing": null,
+      "label": "home",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": null,
+          "reviews": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 0,
+      "lat": 38.94261011124175,
+      "lng": -79.84,
+      "dKm": 2.5,
+      "bearing": 0,
+      "label": "2.5 km N",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 1,
+      "lat": 38.931305055620875,
+      "lng": -79.81500204372297,
+      "dKm": 2.5,
+      "bearing": 60,
+      "label": "2.5 km ENE",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 2,
+      "lat": 38.90869494437913,
+      "lng": -79.81500204372297,
+      "dKm": 2.5,
+      "bearing": 120,
+      "label": "2.5 km ESE",
+      "status": "found",
+      "rank": 10,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 3,
+      "lat": 38.897389888758255,
+      "lng": -79.84,
+      "dKm": 2.5,
+      "bearing": 180,
+      "label": "2.5 km S",
+      "status": "found",
+      "rank": 10,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 4,
+      "lat": 38.90869494437913,
+      "lng": -79.86499795627704,
+      "dKm": 2.5,
+      "bearing": 240,
+      "label": "2.5 km WSW",
+      "status": "found",
+      "rank": 10,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 1,
+      "index": 5,
+      "lat": 38.931305055620875,
+      "lng": -79.86499795627704,
+      "dKm": 2.5,
+      "bearing": 300,
+      "label": "2.5 km WNW",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 0,
+      "lat": 38.89399176886991,
+      "lng": -79.80958280827738,
+      "dKm": 3.9,
+      "bearing": 137.5,
+      "label": "3.9 km SE",
+      "status": "found",
+      "rank": 10,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 1,
+      "lat": 38.88636211499131,
+      "lng": -79.85354635442096,
+      "dKm": 3.9,
+      "bearing": 197.5,
+      "label": "3.9 km SSW",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 2,
+      "lat": 38.9123703461214,
+      "lng": -79.88396354614358,
+      "dKm": 3.9,
+      "bearing": 257.5,
+      "label": "3.9 km WSW",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 3,
+      "lat": 38.946008231130094,
+      "lng": -79.87041719172262,
+      "dKm": 3.9,
+      "bearing": 317.5,
+      "label": "3.9 km NW",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 4,
+      "lat": 38.953637885008696,
+      "lng": -79.82645364557905,
+      "dKm": 3.9,
+      "bearing": 17.5,
+      "label": "3.9 km NNE",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 2,
+      "index": 5,
+      "lat": 38.927629653878604,
+      "lng": -79.79603645385643,
+      "dKm": 3.9,
+      "bearing": 77.5,
+      "label": "3.9 km ENE",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 0,
+      "lat": 38.924901868480994,
+      "lng": -79.91131152301799,
+      "dKm": 6.2,
+      "bearing": 275,
+      "label": "6.2 km W",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 1,
+      "lat": 38.97082573287564,
+      "lng": -79.87023620860838,
+      "dKm": 6.2,
+      "bearing": 335,
+      "label": "6.2 km NNW",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 2,
+      "lat": 38.96592386439465,
+      "lng": -79.79892468559039,
+      "dKm": 6.2,
+      "bearing": 35,
+      "label": "6.2 km NE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 3,
+      "lat": 38.91509813151901,
+      "lng": -79.76868847698202,
+      "dKm": 6.2,
+      "bearing": 95,
+      "label": "6.2 km E",
+      "status": "found",
+      "rank": 6,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8c1833d42565bd9c",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:0f22cf1521ecd48f",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 4,
+      "lat": 38.869174267124365,
+      "lng": -79.80976379139163,
+      "dKm": 6.2,
+      "bearing": 155,
+      "label": "6.2 km SSE",
+      "status": "found",
+      "rank": 3,
+      "inPack": true,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8c1833d42565bd9c",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:0290a44aea83acf4",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:41e47f218206696b",
+          "rating": null,
+          "reviews": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 3,
+      "index": 5,
+      "lat": 38.87407613560536,
+      "lng": -79.88107531440961,
+      "dKm": 6.2,
+      "bearing": 215,
+      "label": "6.2 km SW",
+      "status": "found",
+      "rank": 5,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:0f22cf1521ecd48f",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8c1833d42565bd9c",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:9d9fddd792806f06",
+          "rating": null,
+          "reviews": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 0,
+      "lat": 38.97392761321242,
+      "lng": -79.75020362942608,
+      "dKm": 9.8,
+      "bearing": 52.5,
+      "label": "9.8 km NE",
+      "status": "found",
+      "rank": 3,
+      "inPack": true,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:41e47f218206696b",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:9d9fddd792806f06",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:0f22cf1521ecd48f",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 1,
+      "lat": 38.88604964910624,
+      "lng": -79.73547892728915,
+      "dKm": 9.8,
+      "bearing": 112.5,
+      "label": "9.8 km ESE",
+      "status": "found",
+      "rank": 5,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:8c1833d42565bd9c",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 2,
+      "lat": 38.83212203589383,
+      "lng": -79.82527529786307,
+      "dKm": 9.8,
+      "bearing": 172.5,
+      "label": "9.8 km S",
+      "status": "found",
+      "rank": 8,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:0f22cf1521ecd48f",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 3,
+      "lat": 38.866072386787586,
+      "lng": -79.92979637057392,
+      "dKm": 9.8,
+      "bearing": 232.5,
+      "label": "9.8 km SW",
+      "status": "found",
+      "rank": 5,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8c1833d42565bd9c",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:0290a44aea83acf4",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:5a5161081189471f",
+          "rating": 2.4,
+          "reviews": 27
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 4,
+      "lat": 38.95395035089376,
+      "lng": -79.94452107271086,
+      "dKm": 9.8,
+      "bearing": 292.5,
+      "label": "9.8 km WNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:20dfd44ab5a10b5d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:ec252cb1a6cefce8",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:97e8ac19fb658729",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:ad08d0dccf1c05c5",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:ca9fda7451867b8f",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 4,
+      "index": 5,
+      "lat": 39.00787796410617,
+      "lng": -79.85472470213693,
+      "dKm": 9.8,
+      "bearing": 352.5,
+      "label": "9.8 km N",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:385e272134d9bcac",
+          "rating": 4.9,
+          "reviews": 57
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:3e3fa7f4af1f33e3",
+          "rating": 4,
+          "reviews": 3
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 0,
+      "lat": 38.782850480905175,
+      "lng": -79.87096891669036,
+      "dKm": 15.4,
+      "bearing": 190,
+      "label": "15.4 km S",
+      "status": "found",
+      "rank": 9,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:882d2e786e910b7c",
+          "rating": 4.9,
+          "reviews": 445
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 1,
+      "lat": 38.84017363533404,
+      "lng": -79.98570683176416,
+      "dKm": 15.4,
+      "bearing": 235,
+      "label": "15.4 km SW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 2,
+      "lat": 38.944257991549286,
+      "lng": -80.01509166092093,
+      "dKm": 15.4,
+      "bearing": 280,
+      "label": "15.4 km W",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 3,
+      "lat": 39.034132345310894,
+      "lng": -79.94191016976866,
+      "dKm": 15.4,
+      "bearing": 325,
+      "label": "15.4 km NW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 4,
+      "lat": 39.05714951909483,
+      "lng": -79.80903108330965,
+      "dKm": 15.4,
+      "bearing": 10,
+      "label": "15.4 km N",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 5,
+      "lat": 38.999826364665964,
+      "lng": -79.69429316823584,
+      "dKm": 15.4,
+      "bearing": 55,
+      "label": "15.4 km NE",
+      "status": "found",
+      "rank": 8,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 6,
+      "lat": 38.89574200845072,
+      "lng": -79.66490833907908,
+      "dKm": 15.4,
+      "bearing": 100,
+      "label": "15.4 km E",
+      "status": "found",
+      "rank": 8,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 5,
+      "index": 7,
+      "lat": 38.80586765468911,
+      "lng": -79.73808983023135,
+      "dKm": 15.4,
+      "bearing": 145,
+      "label": "15.4 km SE",
+      "status": "found",
+      "rank": 8,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:7f102c05a8d75e8d",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5bff92ba3500c216",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:2dfa00b78afa7d13",
+          "rating": 1.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 0,
+      "lat": 39.104667345392016,
+      "lng": -79.98997350774503,
+      "dKm": 24.2,
+      "bearing": 327.5,
+      "label": "24.2 km NNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:c07637a86ebe84c7",
+          "rating": 5,
+          "reviews": 370
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:251174fcd5c901b4",
+          "rating": 4.6,
+          "reviews": 420
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 1,
+      "lat": 39.138663831356126,
+      "lng": -79.85200326789919,
+      "dKm": 24.2,
+      "bearing": 357.5,
+      "label": "24.2 km N",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:a13aabbcb1141dd4",
+          "rating": 4.2,
+          "reviews": 13
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 2,
+      "lat": 39.11406952029447,
+      "lng": -79.71081676211323,
+      "dKm": 24.2,
+      "bearing": 27.5,
+      "label": "24.2 km NNE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:b423271412fb7dc5",
+          "rating": 4.9,
+          "reviews": 10
+        },
+        {
+          "id": "h:cbca9b7c1fade2bc",
+          "rating": 4,
+          "reviews": 6
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:a13aabbcb1141dd4",
+          "rating": 4.2,
+          "reviews": 13
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 3,
+      "lat": 39.03747443799441,
+      "lng": -79.60424480059466,
+      "dKm": 24.2,
+      "bearing": 57.5,
+      "label": "24.2 km ENE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:cbca9b7c1fade2bc",
+          "rating": 4,
+          "reviews": 6
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 4,
+      "lat": 38.92940217490246,
+      "lng": -79.5608432543682,
+      "dKm": 24.2,
+      "bearing": 87.5,
+      "label": "24.2 km E",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 5,
+      "lat": 38.81881060663829,
+      "lng": -79.59224153269548,
+      "dKm": 24.2,
+      "bearing": 117.5,
+      "label": "24.2 km ESE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 6,
+      "lat": 38.73533265460799,
+      "lng": -79.69002649225497,
+      "dKm": 24.2,
+      "bearing": 147.5,
+      "label": "24.2 km SSE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 7,
+      "lat": 38.70133616864388,
+      "lng": -79.82799673210081,
+      "dKm": 24.2,
+      "bearing": 177.5,
+      "label": "24.2 km S",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 8,
+      "lat": 38.72593047970553,
+      "lng": -79.96918323788678,
+      "dKm": 24.2,
+      "bearing": 207.5,
+      "label": "24.2 km SSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:c2aaa33c91614b8a",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:8e2c9c5a687685fa",
+          "rating": 4.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 9,
+      "lat": 38.80252556200559,
+      "lng": -80.07575519940535,
+      "dKm": 24.2,
+      "bearing": 237.5,
+      "label": "24.2 km WSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:9f2f0d1309c5fb27",
+          "rating": 4.9,
+          "reviews": 38
+        },
+        {
+          "id": "h:7974ee88069f862d",
+          "rating": 4.2,
+          "reviews": 10
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:dbe974f9cb6e2b08",
+          "rating": 3.6,
+          "reviews": 35
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 10,
+      "lat": 38.91059782509755,
+      "lng": -80.11915674563181,
+      "dKm": 24.2,
+      "bearing": 267.5,
+      "label": "24.2 km W",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:1320c1e46b953bd3",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:158b8b70ffe53126",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:8e9c39bf307a0f4b",
+          "rating": 4.1,
+          "reviews": 11
+        },
+        {
+          "id": "h:754c73e40df0c9a7",
+          "rating": 5,
+          "reviews": 2
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 6,
+      "index": 11,
+      "lat": 39.021189393361716,
+      "lng": -80.08775846730452,
+      "dKm": 24.2,
+      "bearing": 297.5,
+      "label": "24.2 km WNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:1320c1e46b953bd3",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:2de01eb0e31c19ee",
+          "rating": 3.6,
+          "reviews": 23
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:8e9c39bf307a0f4b",
+          "rating": 4.1,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 0,
+      "lat": 38.83055249152548,
+      "lng": -79.41517495478136,
+      "dKm": 38.1,
+      "bearing": 105,
+      "label": "38.1 km ESE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:37fe76462cb43865",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:7da45aa18a198ed9",
+          "rating": 3.5,
+          "reviews": 11
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:1fe6d41d080387ab",
+          "rating": 4.9,
+          "reviews": 704
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:3077b01d2feccd22",
+          "rating": 4.8,
+          "reviews": 464
+        },
+        {
+          "id": "h:c33a71294e3f8fa9",
+          "rating": 5,
+          "reviews": 605
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 1,
+      "lat": 38.71638374010367,
+      "lng": -79.48511370674423,
+      "dKm": 38.1,
+      "bearing": 126.2,
+      "label": "38.1 km SE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7da45aa18a198ed9",
+          "rating": 3.5,
+          "reviews": 11
+        },
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:37fe76462cb43865",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:1fe6d41d080387ab",
+          "rating": 4.9,
+          "reviews": 704
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:3077b01d2feccd22",
+          "rating": 4.8,
+          "reviews": 464
+        },
+        {
+          "id": "h:c33a71294e3f8fa9",
+          "rating": 5,
+          "reviews": 605
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 2,
+      "lat": 38.62971449285751,
+      "lng": -79.60298181910412,
+      "dKm": 38.1,
+      "bearing": 147.4,
+      "label": "38.1 km SSE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:7da45aa18a198ed9",
+          "rating": 3.5,
+          "reviews": 11
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:1fe6d41d080387ab",
+          "rating": 4.9,
+          "reviews": 704
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:3077b01d2feccd22",
+          "rating": 4.8,
+          "reviews": 464
+        },
+        {
+          "id": "h:c6bfcec735cfbcfb",
+          "rating": 4.9,
+          "reviews": 506
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 3,
+      "lat": 38.58224991187846,
+      "lng": -79.75286055015708,
+      "dKm": 38.1,
+      "bearing": 168.6,
+      "label": "38.1 km SSE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:0b6dd33cd51d5902",
+          "rating": 4.1,
+          "reviews": 44
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:081698a3c8f45c93",
+          "rating": 5,
+          "reviews": 192
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:268cea3f1537375d",
+          "rating": 4.5,
+          "reviews": 25
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 4,
+      "lat": 38.58040035183807,
+      "lng": -79.9145079467677,
+      "dKm": 38.1,
+      "bearing": 189.8,
+      "label": "38.1 km S",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:4391d7a8a6990fff",
+          "rating": 5,
+          "reviews": 4
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 5,
+      "lat": 38.62441560606857,
+      "lng": -80.06609263230455,
+      "dKm": 38.1,
+      "bearing": 210.9,
+      "label": "38.1 km SSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        },
+        {
+          "id": "h:0585cabf4fc5eab9",
+          "rating": 4.6,
+          "reviews": 338
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 6,
+      "lat": 38.70835117058917,
+      "lng": -80.18714225502615,
+      "dKm": 38.1,
+      "bearing": 232.1,
+      "label": "38.1 km SW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:882d2e786e910b7c",
+          "rating": 4.9,
+          "reviews": 445
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:c07637a86ebe84c7",
+          "rating": 5,
+          "reviews": 370
+        },
+        {
+          "id": "h:e10a190a3a8f3c84",
+          "rating": 4.8,
+          "reviews": 520
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 7,
+      "lat": 38.82087108230835,
+      "lng": -80.26130839262481,
+      "dKm": 38.1,
+      "bearing": 253.3,
+      "label": "38.1 km WSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7f7245a9e2170e12",
+          "rating": 4.4,
+          "reviews": 15
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:1320c1e46b953bd3",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:40cf95daa2b47f1a",
+          "rating": 4.3,
+          "reviews": 23
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 8,
+      "lat": 38.94677890365409,
+      "lng": -80.27857449724911,
+      "dKm": 38.1,
+      "bearing": 274.5,
+      "label": "38.1 km W",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:1320c1e46b953bd3",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:8e9c39bf307a0f4b",
+          "rating": 4.1,
+          "reviews": 11
+        },
+        {
+          "id": "h:158b8b70ffe53126",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:754c73e40df0c9a7",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8d142c579cca3919",
+          "rating": 4,
+          "reviews": 4
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 9,
+      "lat": 39.06907008567432,
+      "lng": -80.23660868579474,
+      "dKm": 38.1,
+      "bearing": 295.6,
+      "label": "38.1 km WNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:e02867224191b8d1",
+          "rating": 5,
+          "reviews": 89
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:831d4f2ab3909ee1",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:158b8b70ffe53126",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:1320c1e46b953bd3",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:754c73e40df0c9a7",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8e9c39bf307a0f4b",
+          "rating": 4.1,
+          "reviews": 11
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 10,
+      "lat": 39.17122852659836,
+      "lng": -80.14107867363919,
+      "dKm": 38.1,
+      "bearing": 316.8,
+      "label": "38.1 km NW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:35a490d185d87205",
+          "rating": 4.3,
+          "reviews": 626
+        },
+        {
+          "id": "h:251174fcd5c901b4",
+          "rating": 4.6,
+          "reviews": 420
+        },
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:543bca89fcc01148",
+          "rating": 4.5,
+          "reviews": 773
+        },
+        {
+          "id": "h:5bc42b76485e622a",
+          "rating": 4.9,
+          "reviews": 180
+        },
+        {
+          "id": "h:cee76ead93538e16",
+          "rating": 4.9,
+          "reviews": 509
+        },
+        {
+          "id": "h:0242f98326e6e0ca",
+          "rating": 5,
+          "reviews": 259
+        },
+        {
+          "id": "h:8c2e8c44aa91dc72",
+          "rating": 4.7,
+          "reviews": 48
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 11,
+      "lat": 39.23945716289998,
+      "lng": -80.00488631827415,
+      "dKm": 38.1,
+      "bearing": 338,
+      "label": "38.1 km NNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:69a011ab6bcd2609",
+          "rating": 4.4,
+          "reviews": 11
+        },
+        {
+          "id": "h:c07637a86ebe84c7",
+          "rating": 5,
+          "reviews": 370
+        },
+        {
+          "id": "h:a13aabbcb1141dd4",
+          "rating": 4.2,
+          "reviews": 13
+        },
+        {
+          "id": "h:251174fcd5c901b4",
+          "rating": 4.6,
+          "reviews": 420
+        },
+        {
+          "id": "h:68513a552d9b79ef",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:d6244e3a59f06549",
+          "rating": 4.5,
+          "reviews": 122
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 12,
+      "lat": 39.264541339178706,
+      "lng": -79.84642515195955,
+      "dKm": 38.1,
+      "bearing": 359.2,
+      "label": "38.1 km N",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a13aabbcb1141dd4",
+          "rating": 4.2,
+          "reviews": 13
+        },
+        {
+          "id": "h:a57ad0d77667b730",
+          "rating": 4,
+          "reviews": 4
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:8d7892662d15cc5c",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:69a011ab6bcd2609",
+          "rating": 4.4,
+          "reviews": 11
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:9682d9a1c24afefe",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:68513a552d9b79ef",
+          "rating": 4.3,
+          "reviews": 6
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 13,
+      "lat": 39.24309329843188,
+      "lng": -79.68709623326981,
+      "dKm": 38.1,
+      "bearing": 20.3,
+      "label": "38.1 km NNE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a13aabbcb1141dd4",
+          "rating": 4.2,
+          "reviews": 13
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:f37573bc151f7550",
+          "rating": 4.2,
+          "reviews": 36
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:a57ad0d77667b730",
+          "rating": 4,
+          "reviews": 4
+        },
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        },
+        {
+          "id": "h:eba90f67df76d6e0",
+          "rating": 5,
+          "reviews": 12
+        },
+        {
+          "id": "h:b423271412fb7dc5",
+          "rating": 4.9,
+          "reviews": 10
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:0345c79a01c28bb3",
+          "rating": 4.8,
+          "reviews": 26
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 14,
+      "lat": 39.17800971741006,
+      "lng": -79.54841781554602,
+      "dKm": 38.1,
+      "bearing": 41.5,
+      "label": "38.1 km NE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        },
+        {
+          "id": "h:67583d24851bb061",
+          "rating": 5,
+          "reviews": 10
+        },
+        {
+          "id": "h:33fd3055b176a0f0",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:cbca9b7c1fade2bc",
+          "rating": 4,
+          "reviews": 6
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:a57ad0d77667b730",
+          "rating": 4,
+          "reviews": 4
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:f37573bc151f7550",
+          "rating": 4.2,
+          "reviews": 36
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 15,
+      "lat": 39.078080494370816,
+      "lng": -79.44911918754539,
+      "dKm": 38.1,
+      "bearing": 62.7,
+      "label": "38.1 km ENE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:67583d24851bb061",
+          "rating": 5,
+          "reviews": 10
+        },
+        {
+          "id": "h:33fd3055b176a0f0",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:7d0c20e3167979cc",
+          "rating": 4.6,
+          "reviews": 13
+        },
+        {
+          "id": "h:66b7ff7a4b46d835",
+          "rating": 3.7,
+          "reviews": 29
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 7,
+      "index": 16,
+      "lat": 38.95680162461253,
+      "lng": -79.40261117921212,
+      "dKm": 38.1,
+      "bearing": 83.9,
+      "label": "38.1 km E",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:7d0c20e3167979cc",
+          "rating": 4.6,
+          "reviews": 13
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:66b7ff7a4b46d835",
+          "rating": 3.7,
+          "reviews": 29
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:66287f82dfc322d7",
+          "rating": 4.3,
+          "reviews": 11
+        },
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 0,
+      "lat": 38.66988129431912,
+      "lng": -80.45478482581035,
+      "dKm": 60,
+      "bearing": 242.6,
+      "label": "60 km WSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:9f20e2dd63f56371",
+          "rating": 3.5,
+          "reviews": 4
+        },
+        {
+          "id": "h:882d2e786e910b7c",
+          "rating": 4.9,
+          "reviews": 445
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:c07637a86ebe84c7",
+          "rating": 5,
+          "reviews": 370
+        },
+        {
+          "id": "h:e10a190a3a8f3c84",
+          "rating": 4.8,
+          "reviews": 520
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 1,
+      "lat": 38.84966910999294,
+      "lng": -80.52692042977856,
+      "dKm": 60,
+      "bearing": 262.6,
+      "label": "60 km W",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:40cf95daa2b47f1a",
+          "rating": 4.3,
+          "reviews": 23
+        },
+        {
+          "id": "h:4885eddaa1e523af",
+          "rating": 4.7,
+          "reviews": 51
+        },
+        {
+          "id": "h:110f3ea41d9056c4",
+          "rating": 4.8,
+          "reviews": 4
+        },
+        {
+          "id": "h:9f20e2dd63f56371",
+          "rating": 3.5,
+          "reviews": 4
+        },
+        {
+          "id": "h:005929470854adb7",
+          "rating": 5,
+          "reviews": 86
+        },
+        {
+          "id": "h:f3a5cde84f27090b",
+          "rating": 4.7,
+          "reviews": 9
+        },
+        {
+          "id": "h:85a3dff2a54bd42b",
+          "rating": 3.5,
+          "reviews": 2
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 2,
+      "lat": 39.037939868974995,
+      "lng": -80.51620329204965,
+      "dKm": 60,
+      "bearing": 282.6,
+      "label": "60 km WNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:40cf95daa2b47f1a",
+          "rating": 4.3,
+          "reviews": 23
+        },
+        {
+          "id": "h:110f3ea41d9056c4",
+          "rating": 4.8,
+          "reviews": 4
+        },
+        {
+          "id": "h:85a3dff2a54bd42b",
+          "rating": 3.5,
+          "reviews": 2
+        },
+        {
+          "id": "h:df7ca1e0077a4782",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:79b67cc8cb3413b9",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:d68163f6f4e1e904",
+          "rating": 4.5,
+          "reviews": 2
+        },
+        {
+          "id": "h:fc49c0d201a74923",
+          "rating": 4,
+          "reviews": 4
+        },
+        {
+          "id": "h:d8ed8cac912747d8",
+          "rating": 3.1,
+          "reviews": 78
+        },
+        {
+          "id": "h:5ce6e97d0ce241ec",
+          "rating": 4.8,
+          "reviews": 345
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 3,
+      "lat": 39.21198533915158,
+      "lng": -80.42392605760183,
+      "dKm": 60,
+      "bearing": 302.6,
+      "label": "60 km WNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:cc90d7dd67041d68",
+          "rating": 4.6,
+          "reviews": 5
+        },
+        {
+          "id": "h:8c2e8c44aa91dc72",
+          "rating": 4.7,
+          "reviews": 48
+        },
+        {
+          "id": "h:5bc42b76485e622a",
+          "rating": 4.9,
+          "reviews": 180
+        },
+        {
+          "id": "h:945b16bf142ee327",
+          "rating": 4.8,
+          "reviews": 118
+        },
+        {
+          "id": "h:942a57ee94353bdf",
+          "rating": 4.5,
+          "reviews": 26
+        },
+        {
+          "id": "h:08cf40bf72b4b99c",
+          "rating": 5,
+          "reviews": 11
+        },
+        {
+          "id": "h:1f8165d5c87587ed",
+          "rating": 4.8,
+          "reviews": 351
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        },
+        {
+          "id": "h:0514a3982f82c049",
+          "rating": 3.9,
+          "reviews": 7
+        },
+        {
+          "id": "h:35a490d185d87205",
+          "rating": 4.3,
+          "reviews": 626
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 4,
+      "lat": 39.35081306818183,
+      "lng": -80.26121872277645,
+      "dKm": 60,
+      "bearing": 322.6,
+      "label": "60 km NW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a14c843fe467df66",
+          "rating": 4.9,
+          "reviews": 520
+        },
+        {
+          "id": "h:81d4224a1052263e",
+          "rating": 4.9,
+          "reviews": 471
+        },
+        {
+          "id": "h:c07637a86ebe84c7",
+          "rating": 5,
+          "reviews": 370
+        },
+        {
+          "id": "h:183348b6655ae0ae",
+          "rating": 5,
+          "reviews": 254
+        },
+        {
+          "id": "h:a8b54553571c64b8",
+          "rating": 4.9,
+          "reviews": 469
+        },
+        {
+          "id": "h:f8ba540de01a8784",
+          "rating": 4.5,
+          "reviews": 20
+        },
+        {
+          "id": "h:809a86ac45df1b48",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:51dda329db296de9",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:d8d86af5acc648c3",
+          "rating": 5,
+          "reviews": 130
+        },
+        {
+          "id": "h:3ccda9b95d455001",
+          "rating": 3.7,
+          "reviews": 3
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 5,
+      "lat": 39.437678383065624,
+      "lng": -80.04770619345794,
+      "dKm": 60,
+      "bearing": 342.6,
+      "label": "60 km NNW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:c9d5e8dc34756623",
+          "rating": 5,
+          "reviews": 13
+        },
+        {
+          "id": "h:907672dbebfbf39c",
+          "rating": 4.6,
+          "reviews": 30
+        },
+        {
+          "id": "h:85b19d4f199134a1",
+          "rating": 4.6,
+          "reviews": 243
+        },
+        {
+          "id": "h:5b1125c0f110b183",
+          "rating": 4.3,
+          "reviews": 11
+        },
+        {
+          "id": "h:476bd92493d8c545",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:04949ec40ffddcd3",
+          "rating": 4.9,
+          "reviews": 134
+        },
+        {
+          "id": "h:07e200e85c696522",
+          "rating": 4.7,
+          "reviews": 344
+        },
+        {
+          "id": "h:8a92572cdf6c05f4",
+          "rating": 3,
+          "reviews": 1
+        },
+        {
+          "id": "h:d6244e3a59f06549",
+          "rating": 4.5,
+          "reviews": 122
+        },
+        {
+          "id": "h:d48782de38917fd7",
+          "rating": null,
+          "reviews": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 6,
+      "lat": 39.462104044832465,
+      "lng": -79.80914123179149,
+      "dKm": 60,
+      "bearing": 2.6,
+      "label": "60 km N",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:0ee9412266c14605",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:9682d9a1c24afefe",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:0345c79a01c28bb3",
+          "rating": 4.8,
+          "reviews": 26
+        },
+        {
+          "id": "h:3cd8484a6ccc570b",
+          "rating": 4.5,
+          "reviews": 4
+        },
+        {
+          "id": "h:d000f4d6d6a95fbe",
+          "rating": 4.4,
+          "reviews": 131
+        },
+        {
+          "id": "h:51ba1b9bba5b33c3",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:f5c9513a63fe480f",
+          "rating": 5,
+          "reviews": 382
+        },
+        {
+          "id": "h:882d2e786e910b7c",
+          "rating": 4.9,
+          "reviews": 445
+        },
+        {
+          "id": "h:e10a190a3a8f3c84",
+          "rating": 4.8,
+          "reviews": 520
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 7,
+      "lat": 39.42114395818889,
+      "lng": -79.57429829299788,
+      "dKm": 60,
+      "bearing": 22.6,
+      "label": "60 km NNE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:8f5d34b05938f5a9",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:fedb4931fb2f0eff",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:9682d9a1c24afefe",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:51ba1b9bba5b33c3",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:0345c79a01c28bb3",
+          "rating": 4.8,
+          "reviews": 26
+        },
+        {
+          "id": "h:f37573bc151f7550",
+          "rating": 4.2,
+          "reviews": 36
+        },
+        {
+          "id": "h:3cd8484a6ccc570b",
+          "rating": 4.5,
+          "reviews": 4
+        },
+        {
+          "id": "h:cd5a4f0b6ee4647b",
+          "rating": 5,
+          "reviews": 141
+        },
+        {
+          "id": "h:07eb19f6e32f0f49",
+          "rating": 4.9,
+          "reviews": 141
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 8,
+      "lat": 39.31973851409063,
+      "lng": -79.3715029014083,
+      "dKm": 60,
+      "bearing": 42.6,
+      "label": "60 km NE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:f37573bc151f7550",
+          "rating": 4.2,
+          "reviews": 36
+        },
+        {
+          "id": "h:cd5a4f0b6ee4647b",
+          "rating": 5,
+          "reviews": 141
+        },
+        {
+          "id": "h:a4a18877d2dfe548",
+          "rating": 4.5,
+          "reviews": 12
+        },
+        {
+          "id": "h:b1619d5c01220adf",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:2fa8ae645b22fc00",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:8caace23a07f066a",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:07eb19f6e32f0f49",
+          "rating": 4.9,
+          "reviews": 141
+        },
+        {
+          "id": "h:97412a9a272e11be",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:fddff620dbcd4cf9",
+          "rating": 5,
+          "reviews": 55
+        },
+        {
+          "id": "h:721f97ce810f022a",
+          "rating": 5,
+          "reviews": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 9,
+      "lat": 39.170118705680885,
+      "lng": -79.22521517418966,
+      "dKm": 60,
+      "bearing": 62.6,
+      "label": "60 km ENE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:0c5815506229d88f",
+          "rating": 4.8,
+          "reviews": 202
+        },
+        {
+          "id": "h:7d0c20e3167979cc",
+          "rating": 4.6,
+          "reviews": 13
+        },
+        {
+          "id": "h:e45b7dd63995a400",
+          "rating": 4.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:f7363e30d2550ca4",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:be01a2693c16c312",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:1fe6d41d080387ab",
+          "rating": 4.9,
+          "reviews": 704
+        },
+        {
+          "id": "h:3f2784c3dcedd55d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:89e1f77b612e14e8",
+          "rating": 5,
+          "reviews": 6
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 10,
+      "lat": 38.990330890007066,
+      "lng": -79.15307957022145,
+      "dKm": 60,
+      "bearing": 82.6,
+      "label": "60 km E",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:7d0c20e3167979cc",
+          "rating": 4.6,
+          "reviews": 13
+        },
+        {
+          "id": "h:ee38c3f69398cb67",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:e743b3af9b163f0e",
+          "rating": 3.4,
+          "reviews": 16
+        },
+        {
+          "id": "h:081b4433a0301ba5",
+          "rating": 2.8,
+          "reviews": 60
+        },
+        {
+          "id": "h:0c5815506229d88f",
+          "rating": 4.8,
+          "reviews": 202
+        },
+        {
+          "id": "h:e45b7dd63995a400",
+          "rating": 4.9,
+          "reviews": 9
+        },
+        {
+          "id": "h:f7363e30d2550ca4",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:be01a2693c16c312",
+          "rating": 4.5,
+          "reviews": 8
+        },
+        {
+          "id": "h:3f2784c3dcedd55d",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:a232983653dcda13",
+          "rating": 3,
+          "reviews": 2
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 11,
+      "lat": 38.80206013102501,
+      "lng": -79.16379670795035,
+      "dKm": 60,
+      "bearing": 102.6,
+      "label": "60 km ESE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:37fe76462cb43865",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:7da45aa18a198ed9",
+          "rating": 3.5,
+          "reviews": 11
+        },
+        {
+          "id": "h:0c5815506229d88f",
+          "rating": 4.8,
+          "reviews": 202
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:246454686d29b6ba",
+          "rating": 4.1,
+          "reviews": 152
+        },
+        {
+          "id": "h:7d0c20e3167979cc",
+          "rating": 4.6,
+          "reviews": 13
+        },
+        {
+          "id": "h:e45b7dd63995a400",
+          "rating": 4.9,
+          "reviews": 9
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 12,
+      "lat": 38.62801466084842,
+      "lng": -79.25607394239817,
+      "dKm": 60,
+      "bearing": 122.6,
+      "label": "60 km ESE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:7da45aa18a198ed9",
+          "rating": 3.5,
+          "reviews": 11
+        },
+        {
+          "id": "h:54389a4794f647cd",
+          "rating": 3.2,
+          "reviews": 5
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:246454686d29b6ba",
+          "rating": 4.1,
+          "reviews": 152
+        },
+        {
+          "id": "h:37fe76462cb43865",
+          "rating": 5,
+          "reviews": 1
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:4866cfc51964eaae",
+          "rating": 4.9,
+          "reviews": 658
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 13,
+      "lat": 38.489186931818175,
+      "lng": -79.41878127722356,
+      "dKm": 60,
+      "bearing": 142.6,
+      "label": "60 km SE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:49569d97b6159e69",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:18e63ae6aac46f06",
+          "rating": 4.8,
+          "reviews": 648
+        },
+        {
+          "id": "h:ffbb55f68318e654",
+          "rating": 4.3,
+          "reviews": 6
+        },
+        {
+          "id": "h:aefc170dc791a3ed",
+          "rating": 4.6,
+          "reviews": 9
+        },
+        {
+          "id": "h:09e967fe5ed55ae5",
+          "rating": 4.7,
+          "reviews": 153
+        },
+        {
+          "id": "h:4e741f6ebfb72afd",
+          "rating": 5,
+          "reviews": 7
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:1fe6d41d080387ab",
+          "rating": 4.9,
+          "reviews": 704
+        },
+        {
+          "id": "h:4866cfc51964eaae",
+          "rating": 4.9,
+          "reviews": 658
+        },
+        {
+          "id": "h:c33a71294e3f8fa9",
+          "rating": 5,
+          "reviews": 605
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 14,
+      "lat": 38.40232161693438,
+      "lng": -79.63229380654207,
+      "dKm": 60,
+      "bearing": 162.6,
+      "label": "60 km SSE",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:fe24e08e1798e501",
+          "rating": 4,
+          "reviews": 9
+        },
+        {
+          "id": "h:b42494ea34255176",
+          "rating": 4.5,
+          "reviews": 2
+        },
+        {
+          "id": "h:d653a0a7ba5efbf9",
+          "rating": 4,
+          "reviews": 4
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:9b0c94e029416c9a",
+          "rating": 4.9,
+          "reviews": 458
+        },
+        {
+          "id": "h:afc45d260774ee6c",
+          "rating": 4.2,
+          "reviews": 58
+        },
+        {
+          "id": "h:3077b01d2feccd22",
+          "rating": 4.8,
+          "reviews": 464
+        },
+        {
+          "id": "h:95fd0c4409f89cc6",
+          "rating": 4.4,
+          "reviews": 420
+        },
+        {
+          "id": "h:51d090fe599705a2",
+          "rating": 5,
+          "reviews": 94
+        },
+        {
+          "id": "h:c6bfcec735cfbcfb",
+          "rating": 4.9,
+          "reviews": 506
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 15,
+      "lat": 38.37789595516754,
+      "lng": -79.87085876820852,
+      "dKm": 60,
+      "bearing": 182.6,
+      "label": "60 km S",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:b976eb40d5c00c98",
+          "rating": 5,
+          "reviews": 2
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:109af6f6ee7fb67e",
+          "rating": 4.9,
+          "reviews": 55
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:5fd5421eecefcc89",
+          "rating": 4.7,
+          "reviews": 10
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:79de8ea560a130b7",
+          "rating": 4.5,
+          "reviews": 24
+        },
+        {
+          "id": "h:2b9c2989ec86ab25",
+          "rating": 5,
+          "reviews": 2
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 16,
+      "lat": 38.41885604181111,
+      "lng": -80.10570170700213,
+      "dKm": 60,
+      "bearing": 202.6,
+      "label": "60 km SSW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:109af6f6ee7fb67e",
+          "rating": 4.9,
+          "reviews": 55
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:f4cd3916cd36a9cf",
+          "rating": 3.8,
+          "reviews": 12
+        },
+        {
+          "id": "h:5b9cbfbea371a1a7",
+          "rating": 4.9,
+          "reviews": 548
+        },
+        {
+          "id": "h:ba2c192be3426aff",
+          "rating": 4.8,
+          "reviews": 331
+        },
+        {
+          "id": "h:65ef660087985ce4",
+          "rating": 4.5,
+          "reviews": 15
+        }
+      ],
+      "error": null
+    },
+    {
+      "ring": 8,
+      "index": 17,
+      "lat": 38.52026148590937,
+      "lng": -80.3084970985917,
+      "dKm": 60,
+      "bearing": 222.6,
+      "label": "60 km SW",
+      "status": "absent",
+      "rank": null,
+      "inPack": false,
+      "listDepth": 10,
+      "results": [
+        {
+          "id": "h:2fc950ee7d1ff862",
+          "rating": null,
+          "reviews": null
+        },
+        {
+          "id": "h:b6d37b92f4ecae5f",
+          "rating": 4,
+          "reviews": 1
+        },
+        {
+          "id": "h:85a06c2058671e4e",
+          "rating": 5,
+          "reviews": 3
+        },
+        {
+          "id": "h:94eafe43d9ae7a8d",
+          "rating": 4.8,
+          "reviews": 262
+        },
+        {
+          "id": "h:3719f3fb083eaba9",
+          "rating": 5,
+          "reviews": 380
+        },
+        {
+          "id": "h:a692724ee29c0925",
+          "rating": 5,
+          "reviews": 129
+        },
+        {
+          "id": "h:6b1a6d80d73bdf8c",
+          "rating": 4.9,
+          "reviews": 644
+        },
+        {
+          "id": "h:42799ff320df5f4d",
+          "rating": 4,
+          "reviews": 21
+        },
+        {
+          "id": "h:268cea3f1537375d",
+          "rating": 4.5,
+          "reviews": 25
+        },
+        {
+          "id": "h:13a78fc19d80526d",
+          "rating": 4.9,
+          "reviews": 21
+        }
+      ],
+      "error": null
+    }
+  ],
+  "provenance": {
+    "source": "an automated browser scan written by this project's author; that scanner is not in this repository",
+    "sourceFile": "withheld.json",
+    "observedAt": "2026-09-20T05:00:03.991Z",
+    "observationWindow": "unknown; the source file records one timestamp for the whole scan",
+    "reobserve": "this command re-renders the recorded file; re-observing these points needs your own provider",
+    "convertedAt": "2026-09-20T05:00:12.482Z",
+    "converter": "falloff/convert@1",
+    "note": "ranks are the order of the Google Maps results feed as seen by a logged-out desktop browser at zoom 13; a Places API re-scan measures a different surface and may differ",
+    "rankSource": "position of the target place id in each point's captured list",
+    "rankColumnDisagreements": 0,
+    "sourceStated": {
+      "ok": 80,
+      "failed": 0,
+      "found": 26
+    },
+    "derived": {
+      "found": 26,
+      "unreached": 0
+    }
+  },
+  "redaction": {
+    "schema": "falloff/redaction@2",
+    "fields": [
+      "target.name",
+      "readings[].results[].name",
+      "ids",
+      "target.lat",
+      "target.lng",
+      "readings[].lat",
+      "readings[].lng",
+      "command",
+      "provenance.sourceFile"
+    ],
+    "ids": "hashed: h: plus the first 16 hex characters of SHA-256(salt + id), with a per-study salt that is not published",
+    "centre": "rounded to 2 decimal places, about 1 km",
+    "points": "recomputed from the rounded centre with the recorded pins, so the geometry still replays",
+    "observedAt": "the scan was observed at the true coordinates; the published ones are the rounded centre and its replanned points",
+    "names": "withheld",
+    "warning": "Withheld is not anonymous: the town, the query and the date are kept, and they narrow the candidates a long way.",
+    "reason": "business names withheld and ids hashed for publication; the town, the query, the date and the ring geometry are kept so the scan can be recomputed",
+    "at": "2026-09-20T05:00:12.511Z"
+  }
+}

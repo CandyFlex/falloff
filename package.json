@@ -1,0 +1,49 @@
+{
+  "name": "falloff",
+  "version": "0.1.0",
+  "description": "Measures where a local business is visible across a geography, and where it stops. Every figure carries the method that produced it.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jarred O'Brien",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CandyFlex/falloff"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./providers/places": "./src/providers/places.mjs",
+    "./providers/osm": "./src/providers/osm.mjs",
+    "./node/convert-grid-scan": "./src/node/convert-grid-scan.mjs",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "falloff": "./bin/falloff.mjs"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "sync-docs": "node scripts/sync-docs.mjs",
+    "check-docs-sync": "node scripts/sync-docs.mjs --check",
+    "studies-index": "node scripts/studies-index.mjs",
+    "page": "node scripts/build-docs-data.mjs",
+    "docs-data": "node scripts/build-docs-data.mjs --offline",
+    "check-docs-data": "node scripts/build-docs-data.mjs --check",
+    "site-data": "node scripts/build-site-data.mjs",
+    "check-site-data": "node scripts/build-site-data.mjs --check"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "local-seo",
+    "map-pack",
+    "visibility",
+    "measurement",
+    "geospatial"
+  ]
+}

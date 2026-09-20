@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case study: one Google Maps search, a big city and a small town | Falloff</title>
+<meta name="description" content="Two real Falloff scans of the same search, one in a big city and one in a small town, with every competitor mapped and every limit stated.">
+<script>try { const t = localStorage.getItem('falloff-theme'); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap">
+  <nav class="top" aria-label="Main">
+    <a class="brand" href="index.html" aria-label="Falloff, home"><span class="logo"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="37.1 38.1 948.7 948.7"><path fill="currentColor" fill-rule="evenodd" d="M154,778L148,774L126,741L98,684L78,625L66,568L64,533L64,490L68,441L82,380L102,326L132,272L170,220L210,178L250,146L300,116L350,92L404,76L439,68L470,66L480,163L432,170L386,184L341,206L304,230L278,250L236,296L208,336L188,376L174,417L164,468L162,488L164,556L174,606L186,639L202,676L228,719L154,778ZM919,698L830,657L848,610L856,570L860,537L860,486L856,453L848,413L834,376L814,334L800,312L772,278L737,244L702,218L654,192L629,182L596,172L544,162L555,66L596,70L644,82L699,104L746,128L788,158L836,200L868,237L898,283L924,335L942,386L954,440L960,489L958,550L952,594L940,646L919,698ZM470,796L437,788L409,780L359,754L316,722L278,679L264,656L248,627L230,571L224,521L228,469L234,439L244,408L268,360L298,320L320,298L345,278L370,262L398,248L451,230L498,224L526,224L555,228L592,236L632,250L668,270L690,288L617,360L596,348L573,338L548,330L525,328L498,328L471,332L445,340L420,352L392,372L360,406L342,440L330,482L328,524L332,551L342,585L358,614L372,631L406,662L440,682L470,692L470,796ZM559,794L552,794L552,692L596,676L617,662L640,644L658,624L668,608L678,592L688,564L696,525L696,499L692,476L682,440L662,405L735,332L756,360L774,396L786,428L796,468L798,499L798,538L790,580L780,612L762,651L744,679L722,706L693,734L664,754L633,772L594,786L559,794ZM523,604L489,602L477,598L456,586L442,573L432,558L424,541L420,524L420,499L422,485L430,468L440,453L453,440L468,430L485,422L499,420L525,420L535,422L555,430L570,440L584,453L594,470L604,500L602,534L598,546L586,567L573,580L558,592L546,598L523,604ZM534,960L491,960L449,956L411,948L366,936L331,922L295,904L255,878L224,855L287,780L328,810L374,834L435,854L489,862L545,860L579,856L607,848L642,836L674,822L706,802L736,780L798,854L778,872L737,898L699,918L668,932L608,950L568,956L534,960Z"/></svg></span>Falloff</a>
+    <ul>
+      <li><a href="index.html#how">How it works</a></li>
+      <li><a href="index.html#uses">Uses</a></li>
+      <li><a href="case-study.html" aria-current="page">Case study</a></li>
+      <li><a href="method.html">Method</a></li>
+      <li><a href="https://github.com/CandyFlex/falloff">GitHub</a></li>
+    </ul>
+    <button class="theme" type="button" aria-label="Switch between light and dark">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="case-hero wrap" aria-labelledby="h-case">
+    <p class="kicker">Case study</p>
+    <h1 id="h-case">One Google Maps search, a big city and a small town.</h1>
+    <p class="sub">Google shows different businesses depending on where the searcher is standing. We searched "dentist" on Google Maps from 80 spots around each of two businesses, one in a crowded market and one in a quiet one, to show what a finished scan looks like and how to read it.</p>
+    <dl class="facts">
+      <div><dt>Search</dt><dd data-f="query-q"></dd></div>
+      <div><dt>Places</dt><dd data-f="places"></dd></div>
+      <div><dt>Checkpoints</dt><dd data-f="points"></dd></div>
+      <div><dt>Observed</dt><dd data-f="observed"></dd></div>
+    </dl>
+  </section>
+
+  <section class="wrap prose-block" aria-labelledby="h-picked">
+    <div class="prose">
+      <h2 id="h-picked">How the two businesses were picked.</h2>
+      <p>Nothing was chosen by hand. One seed word drove a random draw that picked the search term from a list of everyday categories, one of the 25 largest US metro areas, one small county seat a long drive from any city, and a random point inside each.</p>
+      <p>At each point we read the Google Maps results once and took the business at a position that had been drawn before the list was seen, so the list could not steer the pick. The draw can be replayed from the repository and gives the same answer every time.</p>
+      <p>The names of both businesses, and of every competitor, are withheld. Places, dates and measurements are real.</p>
+    </div>
+  </section>
+
+  <section class="example" id="results" aria-labelledby="h-results">
+    <div class="wrap">
+      <h2 id="h-results">What the two scans found.</h2>
+      <p class="lede">Each map is one business. Filled areas are the spots where Google showed it to a searcher. The number under it is its reach: the farthest distance where it still showed up at half the checkpoints or more.</p>
+      <div class="pair">
+        <figure>
+          <div id="pl-a" class="iris-box"></div>
+          <figcaption><p class="reach"><b data-f="m-edge"></b><span data-f="m-edge-mi"></span></p><h3 data-f="m-place"></h3><p data-f="m-story"></p></figcaption>
+        </figure>
+        <figure>
+          <div id="pl-b" class="iris-box"></div>
+          <figcaption><p class="reach"><b data-f="q-edge"></b><span data-f="q-edge-mi"></span></p><h3 data-f="q-place"></h3><p data-f="q-story"></p></figcaption>
+        </figure>
+      </div>
+      <div class="ruler" id="ruler" role="img" aria-label="Both reaches on one distance scale"></div>
+      <p class="legend"><span><i class="k found"></i>Showed up (darker means ranked higher)</span><span><i class="k absent"></i>Checked, did not show up</span><span><i class="k unreached"></i>Could not be checked</span></p>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-read">
+    <div class="prose">
+      <h2 id="h-read">How to read it.</h2>
+      <p data-f="read-1"></p>
+      <p data-f="read-2"></p>
+      <p>The useful finding is not which business "won". It is that you can't guess where Google shows you. Two businesses answering the same search had very different footprints. One held the top three everywhere it appeared and vanished a short drive out. The other carried much farther but almost never made the top three, which is where the Map Pack draws its three businesses from. Neither owner could have seen any of that by searching from their own front door.</p>
+    </div>
+  </section>
+
+  <section class="field wrap" id="competitors" aria-labelledby="h-field">
+    <div class="field-head">
+      <div>
+        <h2 id="h-field">Every competitor, from the same scan.</h2>
+        <p class="lede">Each checkpoint records the full list Google returned, so one scan holds a reach map for every business that appeared. Pick one to see where Google shows it.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Choose a place">
+        <button type="button" aria-pressed="true" data-place="metro"></button>
+        <button type="button" aria-pressed="false" data-place="quiet"></button>
+      </div>
+    </div>
+    <div class="versus">
+      <div id="vs-iris" class="iris-box"></div>
+      <div class="vs-side">
+        <ol class="vs-list" id="vs-list"></ol>
+        <p class="cap" data-f="vs-cap"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-limits">
+    <div class="caveats">
+      <h2 id="h-limits">What this does not show.</h2>
+      <ul>
+        <li>This is one business in each place, scanned once. It says nothing general about cities and small towns.</li>
+        <li data-f="fragile"></li>
+        <li>Results are what a logged-out desktop browser saw on Google Maps on the day. A signed-in phone may see a different order, and the Map Pack on a regular Google search is a separate list that usually, but not always, matches the top of the Maps results.</li>
+        <li>For every business other than the one at the center, distances are measured from the center of the scan, not from that business's own door.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-raw">
+    <h2 id="h-raw">The full report.</h2>
+    <p class="lede">This is the report Falloff prints for each scan, unedited. Every figure on this page comes from these two files.</p>
+    <details class="raw" open><summary data-f="m-place"></summary><pre class="report" id="report-a" tabindex="0"></pre></details>
+    <details class="raw"><summary data-f="q-place"></summary><pre class="report" id="report-b" tabindex="0"></pre></details>
+  </section>
+
+  <section class="final wrap" aria-labelledby="h-final">
+    <h2 id="h-final">Run one on a business you know.</h2>
+    <p class="lede">Falloff is free and open source. It runs from the command line and needs Node 20 or newer.</p>
+    <div class="cta">
+      <button class="btn copy" type="button" data-copy="npm i falloff"><code>npm i falloff</code><span class="copied" aria-live="polite"></span></button>
+      <a class="btn ghost" href="index.html#how">See how it works</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>MIT license. Made by Jarred O'Brien. No analytics on this page.</p>
+  <p>Business names are withheld. Places, dates and measurements are real. Falloff is an independent project and is not affiliated with Google.</p>
+</footer>
+
+<script src="site-data.js"></script>
+<script type="module" src="case-study.mjs"></script>
+</body>
+</html>
