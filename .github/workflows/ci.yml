@@ -18,8 +18,8 @@ jobs:
       # No install step: the package has no dependencies.
       - run: npm test
       - run: npm run check-docs-sync
-      # The page is generated from the studies. Without this step a stale
-      # docs/data.js only fails on the author's machine, which is where it is
-      # least likely to be noticed.
-      - run: npm run check-docs-data
+      # The site's figures come from the studies. Without this step a stale
+      # docs/site-data.js only fails on the author's machine, which is where it
+      # is least likely to be noticed.
+      - run: npm run check-site-data
       - run: node scripts/studies-index.mjs --check

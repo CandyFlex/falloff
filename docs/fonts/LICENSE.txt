@@ -1,9 +1,12 @@
-B612 and B612 Mono, vendored as woff2 (latin subset) in this folder.
-Files: b612-400.woff2, b612-700.woff2, b612-400-italic.woff2, b612-mono-400.woff2,
-b612-mono-700.woff2, b612-mono-400-italic.woff2.
-The upstream licence file follows, unchanged.
+Outfit, Public Sans and JetBrains Mono, vendored as woff2 (latin subset) in this folder
+for the site in docs/.
+Files: outfit-variable.woff2, public-sans-variable.woff2, jetbrains-mono-variable.woff2.
 
-Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
+Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
+Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+
+The upstream licence text follows, unchanged.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

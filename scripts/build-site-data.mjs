@@ -12,7 +12,8 @@
  * know which study is which. It reads that from each study's study.json
  * (`role: "metro"` or `role: "quiet"`); no folder name appears in this file.
  *
- * Deterministic: same snapshots in, same bytes out. No clock, no network.
+ * Deterministic: same snapshots and the same scripts/npm-state.json in, same
+ * bytes out. No clock, no network.
  *
  * Usage:
  *   node scripts/build-site-data.mjs           write docs/site-data.js
@@ -28,6 +29,19 @@ import { buildField } from './build-field.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const OUT = join(ROOT, 'docs', 'site-data.js');
+
+/**
+ * Whether the package is on npm is the one fact here that is not a function of
+ * the repository, so it is recorded by hand in scripts/npm-state.json with the
+ * date it was checked. Until it is published the site offers the command that
+ * works today, which runs the tool straight from the repository.
+ */
+function install() {
+  const s = JSON.parse(readFileSync(join(ROOT, 'scripts', 'npm-state.json'), 'utf8'));
+  return s.published
+    ? { command: 'npm i falloff', note: '' }
+    : { command: 'npx github:CandyFlex/falloff', note: `It is not on npm yet (checked ${s.checked}), so this runs it straight from the repository.` };
+}
 
 function study({ folder, snap, meta, audit: a }) {
   if (!a.ok) throw new Error(`${folder} fails audit; the site never draws a study its own auditor rejects`);
@@ -55,7 +69,7 @@ export function buildSiteData() {
     if (hits.length !== 1) throw new Error(`expected exactly one study with role "${role}" in its study.json, found ${hits.length}`);
     return study(hits[0]);
   };
-  return { metro: pick('metro'), quiet: pick('quiet') };
+  return { install: install(), metro: pick('metro'), quiet: pick('quiet') };
 }
 
 export const siteDataJs = (data) =>

@@ -472,17 +472,19 @@ The studies are grouped by preset in the index, because an overall share is
 not comparable across presets.
 
 The same two studies are drawn on the site in `docs/` (served by GitHub Pages
-once the repository is public). It has three pages: `index.html` is the plain
-introduction, `case-study.html` walks through the two studies, and
-`method.html` is the technical page. Open them locally with any static server
-pointed at `docs/`. No figure on any of them is typed:
+once the repository is public). It has two pages: `index.html` is the plain
+introduction and `case-study.html` walks through the two studies. The method
+lives in this README. Open the pages locally with any static server pointed at
+`docs/`. No figure on either of them is typed:
 
 ```sh
-npm run page              # asks npm whether the package exists, then writes docs/data.js and the method page
-npm run site-data         # writes docs/site-data.js, the data behind the introduction and the case study
-npm run check-docs-data   # exits 1 if the method page or its data is stale
+npm run site-data         # writes docs/site-data.js, the data behind both pages
 npm run check-site-data   # exits 1 if docs/site-data.js is stale
 ```
+
+Whether the package is on npm is recorded by hand in `scripts/npm-state.json`.
+Until it says published, the site offers `npx github:CandyFlex/falloff`, which
+runs the tool straight from this repository.
 
 The two studies were not picked by hand. `node scripts/draw.mjs` replays the
 seeded draw that chose the query, the two places and the point inside each.

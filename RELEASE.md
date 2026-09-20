@@ -64,7 +64,7 @@ These are blockers, not suggestions. Each has the command that checks it.
    ```sh
    npm test
    npm run check-docs-sync
-   npm run check-docs-data
+   npm run check-site-data
    node scripts/studies-index.mjs --check
    npm pack --dry-run          # only src/, bin/, README.md, LICENSE, package.json
    grep -rn -e $'\xe2\x80\x94' -e $'\xe2\x80\x93' README.md SKILL.md docs/*.html docs/*.css bin src/*.mjs    # em and en dashes (UTF-8 bytes); must print nothing

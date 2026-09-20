@@ -30,9 +30,6 @@
     "sync-docs": "node scripts/sync-docs.mjs",
     "check-docs-sync": "node scripts/sync-docs.mjs --check",
     "studies-index": "node scripts/studies-index.mjs",
-    "page": "node scripts/build-docs-data.mjs",
-    "docs-data": "node scripts/build-docs-data.mjs --offline",
-    "check-docs-data": "node scripts/build-docs-data.mjs --check",
     "site-data": "node scripts/build-site-data.mjs",
     "check-site-data": "node scripts/build-site-data.mjs --check"
   },

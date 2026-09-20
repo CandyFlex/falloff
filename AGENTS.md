@@ -8,7 +8,6 @@ below exist so that a change cannot quietly make a number less true.
 ```sh
 npm test                    # node:test, offline, no install step
 npm run check-docs-sync     # docs/lib must equal the browser-safe part of src
-npm run check-docs-data     # docs/data.js, docs/method.html blocks and docs/studies must be current (fix: npm run docs-data)
 npm run check-site-data     # docs/site-data.js must be current (fix: npm run site-data)
 node scripts/studies-index.mjs --check
 ```

@@ -13,7 +13,10 @@ export function chrome() {
     root.dataset.theme = dark ? 'light' : 'dark';
     try { localStorage.setItem('falloff-theme', root.dataset.theme); } catch {}
   });
-  document.querySelectorAll('[data-copy]').forEach((b) => b.addEventListener('click', async () => {
+  const { install } = window.FALLOFF_SITE;
+  document.querySelectorAll('[data-install]').forEach((b) => { b.dataset.copy = install.command; b.querySelector('code').textContent = install.command; });
+  document.querySelectorAll('[data-f=install-note]').forEach((n) => { n.textContent = install.note; });
+  document.querySelectorAll('[data-install]').forEach((b) => b.addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(b.dataset.copy); b.querySelector('.copied').textContent = 'Copied'; setTimeout(() => { b.querySelector('.copied').textContent = ''; }, 1600); } catch {}
   }));
 }

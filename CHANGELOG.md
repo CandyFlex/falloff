@@ -12,10 +12,13 @@ First version.
   example are now built from the Miami scan.
 - `scripts/build-field.mjs` rebuilds a reading for every business a scan
   captured, so one scan gives a reach figure for the whole field.
-- The site has three pages. `docs/index.html` is a plain introduction,
-  `docs/case-study.html` walks through the two studies, and the technical
-  page moved to `docs/method.html`. `scripts/build-site-data.mjs` writes the
-  data behind the first two, and `test/site.test.mjs` keeps it current.
+- The site has two pages. `docs/index.html` is a plain introduction and
+  `docs/case-study.html` walks through the two studies.
+  `scripts/build-site-data.mjs` writes the data behind both, and
+  `test/site.test.mjs` keeps it current. The generated technical page, its
+  build script and its test were removed: the method lives in the README.
+- Until the package is on npm the site offers `npx github:CandyFlex/falloff`,
+  which works today. `scripts/npm-state.json` records the state and the date.
 - Example coordinates in tests and docs no longer point at a real business.
 
 ### Method
